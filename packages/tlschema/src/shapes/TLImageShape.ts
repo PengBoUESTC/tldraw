@@ -34,6 +34,7 @@ const Versions = {
 } as const
 
 /** @internal */
+// eslint-disable-next-line deprecation/deprecation
 export const imageShapeMigrations = defineMigrations({
 	currentVersion: Versions.AddCropProp,
 	migrators: {

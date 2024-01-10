@@ -79,6 +79,7 @@ const Versions = {
 export { Versions as GeoShapeVersions }
 
 /** @internal */
+// eslint-disable-next-line deprecation/deprecation
 export const geoShapeMigrations = defineMigrations({
 	currentVersion: Versions.AddCloud,
 	migrators: {

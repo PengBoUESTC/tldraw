@@ -28,4 +28,5 @@ export const bookmarkAssetValidator: T.Validator<TLBookmarkAsset> = createAssetV
 )
 
 /** @internal */
+// eslint-disable-next-line deprecation/deprecation
 export const bookmarkAssetMigrations = defineMigrations({})
